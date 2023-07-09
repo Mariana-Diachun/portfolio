@@ -4,15 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <!-------CSS files  -->
+    <title>Portfolio</title>
+    <!--------------------------------CSS files -------------------------------------------------- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/skins/color-1.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
-    <!--------Style Switcher-------------->
+    <!-------------------------------------Style Switcher-------------------------------------------->
     <link
       rel="stylesheet"
       href="css/skins/color-1.css"
@@ -51,58 +58,65 @@
     <link rel="stylesheet" href="css/style-switcher.css" />
   </head>
   <body>
-    <!-- ----Main Container Start---- -->
+    <!-- -----------------------------------------------Main Container Start-------------------------------------- -->
     <div class="main-container">
-      <!-- Aside Start -->
+      <!------------------------------------------------- Aside Start ----------------------------------------->
       <div class="aside">
         <div class="logo">
-          <a href="#"><span>M</span>~dev</a>
+          <a href="#" class="logo-link"><span class="logo-span">M</span>~dev</a>
         </div>
         <div class="nav-toggler">
-          <span></span>
+          <span class="toggler-span"></span>
         </div>
         <ul class="nav">
-          <li>
-            <a href="#home" class="active"><i class="fa fa-home"></i>Home</a>
+          <li class="nav-item">
+            <a href="#home" class="nav-link active"
+              ><i class="fa fa-home link-icon"></i>Home</a
+            >
           </li>
-          <li>
-            <a href="#about"><i class="fa fa-user"></i>About me</a>
+          <li class="nav-item">
+            <a href="#about" class="nav-link"
+              ><i class="fa fa-user link-icon"></i>About me</a
+            >
           </li>
-
-          <li>
-            <a href="#services"><i class="fa fa-list"></i>Services</a>
+          <li class="nav-item">
+            <a href="#services" class="nav-link"
+              ><i class="fa fa-list link-icon"></i>Services</a
+            >
           </li>
-
-          <li>
-            <a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link"
+              ><i class="fa fa-briefcase link-icon"></i>Portfolio</a
+            >
           </li>
-
-          <li>
-            <a href="#contact"><i class="fa fa-comments"></i>Contact</a>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link"
+              ><i class="fa fa-comments link-icon"></i>Contact</a
+            >
           </li>
         </ul>
       </div>
-      <!-- Aside End -->
-      <!-- ---Main content Start -->
+      <!----------------------------------------- Aside End -------------------->
+      <!-- ------------------------------------Main content Start ------------------>
       <div class="main-content">
-        <!-- ------Home section start -->
+        <!-- ----------------------------------Home section start ------------------------->
         <section class="home section" id="home">
           <div class="container">
             <div class="row">
               <div class="home-info padd-15">
-                <h3 class="hello">
-                  Hello, my name is <span class="name">Mariana Diachun</span>
+                <h3 class="welcome-title">
+                  Hello, my name is <span class="welcome-span">Mariana Diachun</span>
                 </h3>
-                <h3 class="my-profession">
+                <h3 class="additional-title">
                   I'm a <span class="typing">Software Developer</span>
                 </h3>
-                <p>
+                <p class="main-info">
                   "I am Turning Ideas into Reality through Code and Innovation"
                 </p>
                 <a href="#contact" class="btn hire-me">Hire Me </a>
               </div>
-              <div class="home-img padd-15">
-                <img src="images/photo_2023-07-06_14-18-21.jpg" alt="me" />
+              <div class="img-wrap padd-15">
+                <img src="images/photo_2023-07-06_14-18-21.jpg" alt="me" class="home-img" />
               </div>
             </div>
           </div>
