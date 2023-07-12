@@ -306,6 +306,9 @@ a {
 }
 
 /* --------------------------------------About */
+.about.container {
+  padding-bottom: 30px;
+}
 .about-content {
   flex: 0 0 100%;
   max-width: 100%;
@@ -329,8 +332,8 @@ a {
   color: var(--text-black-700);
 }
 .personal-info {
-  flex: 0 0 50%;
-  max-width: 60%;
+  flex: 0 0 100%;
+  max-width: 100%;
   margin-top: 40px;
 }
 .info-item {
@@ -561,6 +564,7 @@ a {
   text-align: center;
   font-size: 25px;
   margin-bottom: 20px;
+  margin-top: 60px;
 }
 .contact-sub-title {
   color: var(--text-black-900);
@@ -577,7 +581,13 @@ a {
 .contact-icon {
   display: inline-block;
 }
-.contact-icon .fa {
+.contact-icon .fa,
+.contact-icon .fab,
+.contact-icon .fa-brands {
+  font-size: 25px;
+  color: var(--skin-color);
+}
+.contact-icon .fab {
   font-size: 25px;
   color: var(--skin-color);
 }
@@ -593,6 +603,10 @@ a {
   line-height: 25px;
   color: var(--text-black-700);
   font-weight: 400;
+  cursor: pointer;
+}
+.contact-btn {
+  margin: auto;
 }
 .contact-form {
   flex: 0 0 100%;
