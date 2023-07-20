@@ -1,10 +1,10 @@
-// // -----------typing animation------------
-// let typed = new Typed(".typing", {
-//   strings: ["", "Software Developer", "Software Developer"],
-//   typeSpeed: 100,
-//   BackSpeed: 60,
-//   loop: true,
-// })
+// -----------typing animation------------
+let typed = new Typed(".typing", {
+  strings: ["", "Frontend Developer", "Software Developer"],
+  typeSpeed: 100,
+  BackSpeed: 60,
+  loop: true,
+})
 
 // ----------------active link on click-----------------------
 const linkNavRef = document.getElementsByClassName("nav-link")
