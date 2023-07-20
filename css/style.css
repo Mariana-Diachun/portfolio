@@ -131,6 +131,8 @@ a {
   top: 50px;
   font-size: 30px;
   text-transform: capitalize;
+    transform: skew(15deg);
+
 }
 .logo-link {
   color: var(--text-black-900);
@@ -589,7 +591,7 @@ a {
   line-height: 1.56;
   letter-spacing: 0.03em;
   color: var(--skin-color);
-  background-color: var(--text-black-900);
+  background-color: #d8d8d8;
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   overflow: auto;
