@@ -136,7 +136,7 @@ a {
   color: var(--text-black-900);
   font-weight: 700;
   padding: 15px 20px;
-  font-size: 30px;
+  font-size: 40px;
   letter-spacing: 5px;
   position: relative;
 }
@@ -680,6 +680,7 @@ a {
 .contact-link:focus {
   border: 1px solid var(--skin-color);
 }
+
 .contact-link i {
   position: relative;
   transition: 0.5s;
