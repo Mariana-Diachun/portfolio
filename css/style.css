@@ -131,8 +131,6 @@ a {
   top: 50px;
   font-size: 30px;
   text-transform: capitalize;
-    transform: skew(15deg);
-
 }
 .logo-link {
   color: var(--text-black-900);
@@ -331,6 +329,12 @@ a {
   color: var(--skin-color);
   font-weight: 600;
   font-size: 18px;
+}
+.aditional-text {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25px;
+  color: var(--text-black-900);
 }
 .personal-info {
   flex: 0 0 100%;
